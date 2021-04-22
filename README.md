@@ -14,4 +14,4 @@ Se ejecuta la aplicación en modo desarrollo, para verlo en el navegador (http: 
 ## Probar página
 
 Al probar la página solo funciona la parte del buscador de productos y solo con mayusculas.
-Se hizo el acomodo de imagenes y la calificación en estrellas de cada producto.
+Se hizo el acomodo de imagenes y la calificación en estrellas de cada producto mediante la API de productos.
