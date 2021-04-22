@@ -6,6 +6,8 @@ En este proyecto es de una tienda realizada con HTML5 CSS3 y JS.
 
 En el directorio del proyecto, puede ejecutar
 
+### `npm install react`
+### `npm install --save-dev node-sass`
 ### `npm start`
 
 Se ejecuta la aplicación en modo desarrollo, para verlo en el navegador (http: // localhost: 3000)
