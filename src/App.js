@@ -1,23 +1,23 @@
+import { useState } from "react";
 import logo from './logo.svg';
 import './App.css';
 
+//componentes
+import Header from './components/Header';
+import Banner from './components/Banner';
+import ResultList from './components/ResultList';
+import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
+
 function App() {
+  const [word, setWord] = useState("");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header setWord={setWord} />
+      <Banner />
+      <ResultList word={word} />
+      <Newsletter />
+      <Footer />
     </div>
   );
 }
